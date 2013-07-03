@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.hello-world"
-        version   = "1.0.0">
+        id        = "com.proffft.forrest_app_1"
+        version   = "99.999">
 
-    <name>Hello World</name>
+    <name>Simple Notification App</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        App developed for use in testing programs. Simple notification program that emits a vibration and/or sound randomly in a given time interval. Can occur once or indefinitely within in a time limit. Times of notification are given.
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+    <author href="http://phonegap.com" email="mitchellsheaffer@gmail.com">
+        Mitchell Sheaffer
     </author>
 
     <!--
