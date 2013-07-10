@@ -37,3 +37,8 @@ var app = {
     },
     // Update DOM on a Received Event
 };
+
+$(document).bind("mobileinit", function() {
+    $.support.cors = true;
+    $.mobile.allowCrossDomainPages = true;
+});
